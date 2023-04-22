@@ -1,8 +1,13 @@
 {
   "name": "simple-locize",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight library for handling translations via the Locize API",
-  "keywords": ["locize", "translation", "internationalization", "i18n"],
+  "keywords": [
+    "locize",
+    "translation",
+    "internationalization",
+    "i18n"
+  ],
   "author": "Maxamilian Demian",
   "funding": {
     "type": "individual",
