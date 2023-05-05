@@ -25,7 +25,7 @@ export class SimpleLocize {
 		this.privateKey = privateKey;
 	}
 
-	async fetchFromLocize (namespace: string, language: string) {
+	async fetchFromLocize(namespace: string, language: string) {
 		try {
 			const locizeFetch = await fetch(
 				`https://api.locize.io/${!!this.privateKey ? 'private/' : ''}${this.projectId}/${this.environment}/${language}/${namespace}`,
