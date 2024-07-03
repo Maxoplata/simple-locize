@@ -4,7 +4,7 @@ Simple Locize is a library for handling translations via the Locize API. Locize 
 
 ## Installation
 
-You can install Simple Locize via Composer. Run the following command in your terminal:
+You can install Simple Locize via NPM. Run the following command in your terminal:
 
 ```bash
 npm install simple-locize
